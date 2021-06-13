@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Handyman Jobs -Request</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Merienda:wght@400;700&family=Stint+Ultra+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+             <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="bi bi-x" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Repair type.html">REPAIR TYPE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section> 
+
+   <!---contact us--->   
+
+   <section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127642.7541552505
+    !2d36.834508799999995!3d-1.2713984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1
+    sen!2ske!4v1622222515124!5m2!1sen!2ske" width="600" height="450" style="border:0;" 
+    allowfullscreen="" loading="lazy"></iframe>
+
+   </section>
+
+   <section class="contact-us"> 
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="bi bi-house-fill"></i>
+                <span>
+                    <h5> Guzu Road ,Lavington</h5>
+                    <p>Nairobi, Kenya</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="bi bi-telephone-fill"></i>
+                <span>
+                    <h5>+254 70000000</h5>
+                    <p>Monday to Sunday, <br>24/7 Availability</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="bi bi-envelope-fill"></i>
+                <span>
+                    <h5>info@handyman.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="">
+
+            <input type="text" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Email Address" required>
+            <input type="text" placeholder="Enter Your Subject" required>
+            <textarea rows="8" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+        
+        </form>
+        </div>
+    </div>
+
+   </section>
+
+
+        <!---footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p> Best professionals in Home repairs of any kind.<br> Availability 100%</p>
+            <div class="icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+            </div>
+            <p> Made with <i class="bi bi-heart-fill"></i> for Coding for employment</p>
+        </section>
+
+
+    <!---JavaScript for Toggle Menu in small screens #responsive---->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    </body>
+</html>

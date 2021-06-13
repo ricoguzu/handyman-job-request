@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Handyman Jobs -Request</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Merienda:wght@400;700&family=Stint+Ultra+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+             <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="bi bi-x" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Repair type.html">REPAIR TYPE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Promotions</h1>
+    </section> 
+
+   <!---blog content--> 
+
+   <section class="blog-content">
+       <div class="row">
+           <div class="blog-left">
+               <img src="images/blog2.jpg">
+               <h2> 30% off on your first servies offered</h2>
+               <p>Since they are still preserved in the rocks for us to see, they must have been formed quite recently, that is, geologically speaking. 
+                   What can explain these striations and their common orientation?
+                  Did you ever hear about the Great Ice Age or the Pleistocene Epoch? Less than one million years ago, in fact, some 12,000 years ago,
+                  an ice sheet many thousands of feet thick rode over Burke Mountain in a southeastward direction.</p>
+                 <br>
+                 <p>The many boulders frozen to the underside of the ice sheet tended to scratch the rocks over which they rode. The scratches or striations seen in the park rocks were caused by these attached boulders. 
+                 The ice sheet also plucked and rounded Burke Mountain into the shape it possesses today.</p>
+                 <br>
+                 <p>The headphones were on. They had been utilized on purpose. She could hear her mom yelling in the background, but couldn't make out exactly what the yelling was about. That was exactly why she had put them on. She knew her mom would enter her room at any minute, and she could pretend that she hadn't heard any of the previous yelling.
+                 The amber droplet hung from the branch, reaching fullness and ready to drop. It waited. While many of the other droplets were satisfied to form as big as they could and release, this droplet had other plans. It wanted to be part of history. It wanted to be remembered long after all the other droplets had dissolved into history. 
+                 So it waited for the perfect specimen to fly by to trap and capture that it hoped would eventually be discovered hundreds of years in the future.</p>
+                  
+                 <div class="comment-box">
+
+                    <h3> Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                 </div>
+           </div>
+           <div class="blog-right">
+               <h3>Post Categories</h3>
+                <div>
+                    <span>plumbing</span>
+                    <span>6</span>
+                </div>
+                <div>
+                    <span>painting styles</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>floor fittings</span>
+                    <span>9</span>
+                </div>
+                <div>
+                    <span>celling styles</span>
+                    <span>12</span>
+                </div>
+           </div>
+       </div>
+   </section>
+
+  
+
+    
+
+        <!---footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p> Best professionals in Home repairs of any kind. Availability 100%</p>
+            <div class="icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+            </div>
+            <p> Made with <i class="bi bi-heart-fill"></i> for Coding for employment</p>
+        </section>
+
+
+    <!---JavaScript for Toggle Menu in small screens #responsive---->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    </body>
+</html>
